@@ -1,19 +1,31 @@
 {
   "name": "@rojo2/clamp",
   "version": "1.0.0",
-  "description": "",
+  "description": "Clamps a value between a minimum and a maximum.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
-    "test:watch": "mocha --watch"
+    "test": "mocha --require chai/register-expect",
+    "test:watch": "mocha --require chai/register-expect --watch"
   },
   "keywords": [
     "clamp"
   ],
   "author": "ROJO 2 <hola@rojo2.com> (http://rojo2.com)",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "chai": "^4.1.2",
     "mocha": "^4.0.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rojo2/clamp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rojo2/clamp/issues"
+  },
+  "homepage": "https://github.com/rojo2/clamp#readme"
 }
